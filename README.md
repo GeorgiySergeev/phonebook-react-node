@@ -1,1 +1,1 @@
-# React homework phonebook
+# React app phonebook
