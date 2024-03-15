@@ -1,0 +1,84 @@
+/* @import-normalize; */
+/* bring in normalize.css styles */
+:root {
+  --accsent-color: rgb(224, 81, 96);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: rgb(47, 46, 45);
+  /* height: 100vh; */
+
+  /* overflow: hidden; */
+
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(139, 135, 135);
+  background-image: url(./assets/thumb.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* height: 100vh; */
+
+  /* display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.empty {
+  justify-content: start !important;
+}
+
+/*  */
